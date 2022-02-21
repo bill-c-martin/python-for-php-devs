@@ -1,59 +1,32 @@
+Broad overview of Python from a PHP developer's perspective with code examples to tinker with.
+
 
 [learning python](https://www.learnpython.org/)
 
-- [Install Python and friends](#install-python-and-friends)
-  - [Boot Up Virtual Environment](#boot-up-virtual-environment)
+
+## Table of Contents
+- [Install Python and Friends](#install-python-and-friends)
+  - [Setup Virtual Environment](#setup-virtual-environment)
 - [Python for PHP Developers](#python-for-php-developers)
   - [Hello World](#hello-world)
-    - [PHP](#php)
-    - [Python](#python)
   - [Indentation](#indentation)
-    - [PHP](#php-1)
-    - [Python](#python-1)
   - [Numbers](#numbers)
-    - [PHP](#php-2)
-    - [Python](#python-2)
   - [Strings](#strings)
-    - [PHP](#php-3)
-    - [Python](#python-3)
   - [Lists](#lists)
-    - [PHP](#php-4)
-    - [Python](#python-4)
   - [String Formatting](#string-formatting)
-    - [PHP](#php-5)
-    - [Python](#python-5)
   - [String Operations](#string-operations)
-    - [PHP](#php-6)
-    - [Python](#python-6)
   - [Assignments](#assignments)
-    - [PHP](#php-7)
-    - [Python](#python-7)
   - [Arithmetic](#arithmetic)
-    - [PHP](#php-8)
-    - [Python](#python-8)
   - [Concatenation](#concatenation)
-    - [PHP](#php-9)
-    - [Python](#python-9)
   - [Type Checking](#type-checking)
-    - [PHP](#php-10)
-    - [Python](#python-10)
   - [Conditions](#conditions)
-    - [PHP](#php-11)
-    - [Python](#python-11)
   - [Loops](#loops)
-    - [PHP](#php-12)
-    - [Python](#python-12)
   - [Functions](#functions)
-    - [PHP](#php-13)
-    - [Python](#python-13)
   - [Classes](#classes)
-    - [PHP](#php-14)
-    - [Python](#python-14)
   - [Dictionaries](#dictionaries)
-    - [PHP](#php-15)
-    - [Python](#python-15)
+## Install Python and Friends
 
-## Install Python and friends
+In Ubuntu:
 
 ```bash
 sudo apt update
@@ -64,7 +37,9 @@ sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 sudo apt install -y python3-venv
 ```
 
-### Boot Up Virtual Environment
+### Setup Virtual Environment
+
+
 
 `python3 -m venv my_env` was used to create virtual environment in `environments/my_env/`.
 
