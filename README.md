@@ -1,13 +1,12 @@
-Broad overview of Python from a PHP developer's perspective with code examples to tinker with.
+<!-- omit in toc -->
+# Python: for PHP Developers
 
-
-[learning python](https://www.learnpython.org/)
-
+This is a broad overview of Python from a PHP developer's perspective, with code examples to tinker with.
 
 ## Table of Contents
 - [Install Python and Friends](#install-python-and-friends)
   - [Setup Virtual Environment](#setup-virtual-environment)
-- [Python for PHP Developers](#python-for-php-developers)
+- [Python vs PHP Language Comparisons](#python-vs-php-language-comparisons)
   - [Hello World](#hello-world)
   - [Indentation](#indentation)
   - [Numbers](#numbers)
@@ -24,6 +23,23 @@ Broad overview of Python from a PHP developer's perspective with code examples t
   - [Functions](#functions)
   - [Classes](#classes)
   - [Dictionaries](#dictionaries)
+  - [Modules and Packages](#modules-and-packages)
+  - [Numpy Arrays](#numpy-arrays)
+  - [Pandas Basics](#pandas-basics)
+  - [Generators](#generators)
+  - [List Comprehensions](#list-comprehensions)
+  - [Lambda functions](#lambda-functions)
+  - [Multiple Function Arguments](#multiple-function-arguments)
+  - [Regular Expressions](#regular-expressions)
+  - [Exception Handling](#exception-handling)
+  - [Sets](#sets)
+  - [Serialization](#serialization)
+  - [Partial functions](#partial-functions)
+  - [Code Introspection](#code-introspection)
+  - [Closures](#closures)
+  - [Decorators](#decorators)
+  - [Map, Filter, Reduce](#map-filter-reduce)
+
 ## Install Python and Friends
 
 In Ubuntu:
@@ -34,28 +50,46 @@ sudo apt -y upgrade
 python3 -V
 sudo apt install -y python3-pip
 sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
-sudo apt install -y python3-venv
 ```
 
 ### Setup Virtual Environment
 
+Install `venv`:
 
+```bash
+sudo apt install -y python3-venv
+```
 
-`python3 -m venv my_env` was used to create virtual environment in `environments/my_env/`.
+Clone this repo, and in the root directory, setup a virtual environment:
 
-So run:
+```bash
+mkdir environments
+cd environments
+python3 -m venv my_env
+```
 
+Activate the virtual environment:
 ```bash
 source environments/my_env/bin/activate
 ```
 
-To exit virtual env:
+Test run one of the `.py` files in this repo:
+
+```bash
+python3 code/01-hello.py
+```
+
+To exit the virtual environment:
 
 ```bash
 deactivate
 ```
 
-## Python for PHP Developers
+## Python vs PHP Language Comparisons
+
+These are examples inspired by [learningpython.org](https://www.learnpython.org/), but show the equivalent code for PHP.
+
+Each section has a corresponding `.py` file in this repo that you can tinker with.
 
 ### Hello World
 
@@ -99,9 +133,9 @@ if x == 1:
 
 ### Numbers
 
-Like PHP, Python is dynamically typed at runtime. But also has explicit type-casting.
+Like PHP, Python is dynamically-typed.
 
-Floats suck far less in Python.
+Floats suck less in Python.
 
 #### PHP
 
@@ -314,6 +348,184 @@ print([1,2,3] * 10)
 ```
 
 ### Dictionaries
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+
+
+### Modules and Packages
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Numpy Arrays
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Pandas Basics
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Generators
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### List Comprehensions
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Lambda functions
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Multiple Function Arguments
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Regular Expressions
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Exception Handling
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Sets
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Serialization
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Partial functions
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Code Introspection
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Closures
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Decorators
+
+#### PHP
+
+```php
+```
+
+#### Python
+
+```py
+```
+### Map, Filter, Reduce
 
 #### PHP
 
