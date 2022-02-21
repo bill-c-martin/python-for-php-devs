@@ -362,6 +362,11 @@ print([1,2,3] * 10)
 
 ### Modules and Packages
 
+Go over things like:
+
+from pandas import read_csv
+from sklearn.model_selection import train_test_split
+
 #### PHP
 
 ```php
