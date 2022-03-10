@@ -47,7 +47,11 @@ In Ubuntu:
 ```bash
 sudo apt update
 sudo apt -y upgrade
+
+# Confirm python 3.* is installed, else install it
 python3 -V
+
+# Get le friends too
 sudo apt install -y python3-pip
 sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
@@ -63,14 +67,12 @@ sudo apt install -y python3-venv
 Clone this repo, and in the root directory, setup a virtual environment:
 
 ```bash
-mkdir environments
-cd environments
-python3 -m venv my_env
+python3 -m venv env
 ```
 
 Activate the virtual environment:
 ```bash
-source environments/my_env/bin/activate
+source env/bin/activate
 ```
 
 Test run one of the `.py` files in this repo:
