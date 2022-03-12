@@ -6,7 +6,20 @@ print('Hello, %s' % name)
 # multiple substitutions look like this
 first = 'john'
 last = 'smith'
-print('Hello, %s %s' % (first, last))
+age=22
+print('Hello, %s %s, who is %s years old.' % (first, last, age))
+
+# same thing, but with str.format()
+first = "John"
+last = "Smith"
+age = 22
+print("Hello, {first} {last}, who is {age} years old.".format(first=first, last=last, age=age) )
+
+# same thing, with f-strings
+first = "John"
+last = "Smith"
+age = 22
+print(f'Hello, {first} {last}, who is {age} years old.')
 
 # int vs float vs string
 one = 1
