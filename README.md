@@ -4,7 +4,7 @@
 Supplementary repo for my "Python for PHP Developers: Deep Dive" series of articles, which explore Python in depth, but from a PHP developer's perspective:
 
 - [Python for PHP Developers: Deep Dive Part 1](https://billmartin.io/blog/python-for-php-developers-part-1)
-- Python for PHP Developers: Deep Dive Part 2 (pending)
+- [Python for PHP Developers: Deep Dive Part 2](https://billmartin.io/blog/python-for-php-developers-part-2)
 - Python for PHP Developers: Deep Dive Part 3 (pending)
 - Python for PHP Developers: Deep Dive Part 4 (pending)
 
