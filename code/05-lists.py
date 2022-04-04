@@ -26,3 +26,5 @@ print(even + odd)
 
 # repeat lists
 print([1,2,3] * 10)
+
+print(type(range(5)))
