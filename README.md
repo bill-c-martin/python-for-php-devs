@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Python: for PHP Developers
 
-Supplementary repo for my "Python for PHP Developers: Deep Dive" series of articles, which provide a in-depth review of Python from a PHP developer's prespective:
+Supplementary repo for my "Python for PHP Developers: Deep Dive" series of articles, which provide an in-depth review of Python, but from a PHP developer's perspective:
 
 - [Python for PHP Developers: Deep Dive Part 1](https://billmartin.io/blog/python-for-php-developers-part-1)
 - [Python for PHP Developers: Deep Dive Part 2](https://billmartin.io/blog/python-for-php-developers-part-2)
