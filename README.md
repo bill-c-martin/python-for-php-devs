@@ -6,7 +6,7 @@ Supplementary repo for my "Python for PHP Developers: Deep Dive" series of artic
 - [Python for PHP Developers: Deep Dive Part 1](https://billmartin.io/blog/python-for-php-developers-part-1)
 - [Python for PHP Developers: Deep Dive Part 2](https://billmartin.io/blog/python-for-php-developers-part-2)
 
-This repo is useful to tinker with the same code examples used in these articles.
+This repo may prove useful for tinkering with the same Python code examples used in these articles.
 
 ## Install Python and Friends
 
