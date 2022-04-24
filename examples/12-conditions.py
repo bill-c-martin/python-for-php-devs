@@ -15,6 +15,8 @@ if name == "john" and age == 23:
 if name == "john" or name == "rick":
     print("you are either john or rick..")
 
+# What about the and/or vs && and || lazy eval?
+
 # in array checks
 if name in ["John","Rick"]:
     print("you are either john or rick..")
