@@ -10,7 +10,8 @@ print(x > 1)
 name = "john"
 age = 23
 if name == "john" and age == 23:
-    print('Your name is john and you are 23 years old')
+    print('Your name is john')
+    print('And you are 23 years old')
 
 if name == "john" or name == "rick":
     print("you are either john or rick..")
@@ -18,6 +19,12 @@ if name == "john" or name == "rick":
 # in array checks
 if name in ["John","Rick"]:
     print("you are either john or rick..")
+
+# Nested if statements
+if name == "john":
+    print('Your name is john')
+    if age == 23:
+        print('And you are 23 years old')
 
 # if/else blocks
 # Uses abbeviations for elseif
