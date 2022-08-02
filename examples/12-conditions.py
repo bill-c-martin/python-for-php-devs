@@ -44,6 +44,10 @@ else:
     # do yet another thing
     pass
 
+# Conditional expressions
+print("Your name is: ")
+print( "john" if name == "john" else "unknown" )
+
 # array comparison
 x = [1,2,3]
 y = [1,2,3]
