@@ -1,9 +1,14 @@
-x = 2
+x = 9.99
 
-# typical conditionals 
-print(x == 2)
-print(x == 3)
-print(x > 1)
+# Logical operators 
+print(x > 9 and x < 10)          # True
+print(x < 10 or x > 10)          # True
+print( not (x > 9 and x < 10) )  # true
+
+# == works like php's ===, but not int/bool/float vs str
+print(1 == '1')
+print(1 == 1.0)
+print(1 == True)
 
 # uses and/or, not && or ||
 # no parenthesis, and : replaces brackets
