@@ -61,10 +61,21 @@ print(x == y)
 print(x == z)
 
 # is: matches instances, not values
+a = [1,2,3]
+b = [1,2,3]
+print(a == b) # Prints out True. Same values.
+print(a is b) # Prints out False. Different memory addresses.
+
 x = [1,2,3]
-y = [1,2,3]
-print(x == y) # Prints out True
-print(x is y) # Prints out False
+y = x
+print(x == y) # Prints out True. Same values.
+print(x is y) # Prints out True too. Same memory address.
+
+x = 1
+y = 1
+print(x == y)       # Prints out True. Same values.
+print(x is y)       # Prints out.. True.
+print(id(x), id(y)) # Print out.. same memory addresses!
 
 # not
 print(not False) # Prints out True
