@@ -23,10 +23,16 @@ if name == "john" or name == "rick":
 
 # What about the and/or vs && and || lazy eval?
 
-# in array checks
-if name in ["John","Rick"]:
-    print("you are either john or rick..")
+# in and not in
+x = [1,2,3]
+y = "Hello world"
 
+if 1 in x:       print('1 is in [1,2,3]')
+if 6 not in x:   print('6 is not in [1,2,3]')
+if "Hello" in y: print('"Hello" is in "Hello World"')
+if "H" in y:     print('And so is "H"')
+if "X" not in y: print('But "X" is not')
+    
 # Nested if statements
 if name == "john":
     print('Your name is john')
