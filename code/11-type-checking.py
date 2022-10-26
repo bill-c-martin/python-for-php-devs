@@ -9,6 +9,27 @@ print("mystring is a " + type(mystring).__name__ )
 print("myfloat is a " + type(myfloat).__name__)
 print("myint is an " + type(myint).__name__)
 
+# Checking types for primitives
+print(isinstance(123, int))
+print(isinstance(3.14, float))
+print(isinstance("Hello", str))
+print(isinstance(["John", "Jane", "Joe"], list))
+print(isinstance({"John": 25, "Jane": 21, "Joe": 31},dict))
+
+# Checking types for objects
+class Employee:
+  pass
+john = Employee()
+print(isinstance(john, Employee))
+
+# Getting types
+print(type(123).__name__)
+print(type(3.14).__name__)
+print(type("Hello").__name__)
+print(type(["John", "Jane", "Joe"]).__name__)
+print(type({"John": 25, "Jane": 21, "Joe": 31}).__name__)
+print(type(john).__name__)
+
 # Conditionally check types with isinstance()
 if isinstance(mystring, str):
     print("String: %s" % mystring)
