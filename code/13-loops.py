@@ -17,6 +17,23 @@ for x in range(3,10):
 for x in range(3,10,2):
     print(x)
 
+# Print some odd numbers
+for i in range(1, 11, 2):
+    print(i)
+
+# Iterate each character in a string
+for letter in "hello world":
+    print(letter)
+
+# Iterate over a list, etc
+for name in ["John", "Jane", "Bob"]:
+    print(name)
+
+# Print first & last names
+person = {"first": "Jane", "last": "Doe"}
+for key in person:
+    print(person[key])
+
 # while 
 count = 0
 while count < 5:
