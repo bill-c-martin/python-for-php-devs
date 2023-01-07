@@ -40,6 +40,13 @@ while count < 5:
     print(count)
     count += 1
 
+# "do" while
+while True:
+    print(count)
+    
+    if count < 10:
+        break
+
 # breaks
 count = 0
 while True:
